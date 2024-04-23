@@ -1,0 +1,35 @@
+div, nav, img, table, body, html, header, footer {
+  font-size: 14px;
+  color: red;
+  background-color: red;
+}
+div td, div th, nav td, nav th, img td, img th, table td, table th, body td, body th, html td, html th, header td, header th, footer td, footer th {
+  color: white;
+}
+div h1, div h2, div h3, div h4, div h5, div h6, nav h1, nav h2, nav h3, nav h4, nav h5, nav h6, img h1, img h2, img h3, img h4, img h5, img h6, table h1, table h2, table h3, table h4, table h5, table h6, body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3, html h4, html h5, html h6, header h1, header h2, header h3, header h4, header h5, header h6, footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+  color: white;
+  background-color: blue;
+}
+
+.warning, .failure, .success {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  color: black;
+}
+
+.success {
+  color: green;
+}
+
+.failure {
+  color: red;
+}
+
+.warning {
+  color: orange;
+}
+
+/*# sourceMappingURL=main.css.map */
