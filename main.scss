@@ -15,7 +15,12 @@ div, nav, img, table, body, html, header, footer {
         background-color: $secondary_color;
     }
 }
+img {
+    position:sticky;
+    display:flex;
+    size: 12px;
 
+}
 %alert {
     font-family: sans-serif;
     font-size: 18px;
